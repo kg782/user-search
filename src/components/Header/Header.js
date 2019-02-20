@@ -1,27 +1,18 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
+import MenuIcon from '../Icons/MenuIcon';
+import ChromeReaderModeIcon from '../Icons/ChromeReaderMode';
 import './Header.scss';
 
-const Header = ({ title }) => (
+const Header = () => (
   <header className="header-root">
     <div className="menu">
       <MenuIcon />
     </div>
-    <div className="title">{title}</div>
+    <div className="title">Product Name</div>
     <div className="mode">
       <ChromeReaderModeIcon />
     </div>
   </header>
 );
-
-Header.defaultProps = {
-  title: 'Product Name'
-};
-
-Header.propTypes = {
-  title: PropTypes.string.isRequired
-};
 
 export default Header;
