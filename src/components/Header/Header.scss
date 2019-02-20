@@ -1,0 +1,31 @@
+.header-root {
+  display: flex;
+  padding: 0 15px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2271f7;
+  color: #fff;
+
+  .menu {
+    flex-basis: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  .mode {
+    flex-basis: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .title {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
