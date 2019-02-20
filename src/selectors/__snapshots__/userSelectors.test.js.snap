@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`administratorSelector filters 1`] = `
+Array [
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "suzy.cuningham@gmail.com",
+    "favorite": true,
+    "fullName": "Suzy Cuningham",
+    "id": 0,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "bobbyD@outlook.com",
+    "favorite": false,
+    "fullName": "Bobby Daniels",
+    "id": 1,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "johnnyWalker@blue.com",
+    "favorite": false,
+    "fullName": "John Walker",
+    "id": 2,
+    "lastLogin": "1 year ago",
+  },
+]
+`;
+
+exports[`archivedSelector filters 1`] = `
+Array [
+  Object {
+    "administrator": true,
+    "archived": true,
+    "date": "Oct 1, 2015",
+    "email": "john@msn.com",
+    "favorite": true,
+    "fullName": "John Doe",
+    "id": 5,
+    "lastLogin": "1 year ago",
+  },
+]
+`;
+
+exports[`favoritesSelectorfilters  1`] = `
+Array [
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "suzy.cuningham@gmail.com",
+    "favorite": true,
+    "fullName": "Suzy Cuningham",
+    "id": 0,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": false,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "eStevens@yahoo.com",
+    "favorite": true,
+    "fullName": "Eddy Stevens",
+    "id": 3,
+    "lastLogin": "1 year ago",
+  },
+]
+`;
+
+exports[`nonAdminSelector filters 1`] = `
+Array [
+  Object {
+    "administrator": false,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "eStevens@yahoo.com",
+    "favorite": true,
+    "fullName": "Eddy Stevens",
+    "id": 3,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": false,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "jDubz@msn.com",
+    "favorite": false,
+    "fullName": "Jan Williams",
+    "id": 4,
+    "lastLogin": "1 year ago",
+  },
+]
+`;
+
+exports[`usersSelector filters all user except archived 1`] = `
+Array [
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "suzy.cuningham@gmail.com",
+    "favorite": true,
+    "fullName": "Suzy Cuningham",
+    "id": 0,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "bobbyD@outlook.com",
+    "favorite": false,
+    "fullName": "Bobby Daniels",
+    "id": 1,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": true,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "johnnyWalker@blue.com",
+    "favorite": false,
+    "fullName": "John Walker",
+    "id": 2,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": false,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "eStevens@yahoo.com",
+    "favorite": true,
+    "fullName": "Eddy Stevens",
+    "id": 3,
+    "lastLogin": "1 year ago",
+  },
+  Object {
+    "administrator": false,
+    "archived": false,
+    "date": "Oct 1, 2015",
+    "email": "jDubz@msn.com",
+    "favorite": false,
+    "fullName": "Jan Williams",
+    "id": 4,
+    "lastLogin": "1 year ago",
+  },
+]
+`;

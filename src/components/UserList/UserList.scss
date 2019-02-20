@@ -1,0 +1,71 @@
+.user-list-root {
+  background: #fff;
+  margin: 20px;
+
+  .avatar {
+    background-color: #f5f5f5;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .list {
+    display: flex;
+    height: 80px;
+    padding: 0 15px;
+    align-items: center;
+
+    &:last-child {
+      .person-info {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .account {
+    border-radius: 50%;
+    background-color: #dcdcdc;
+  }
+
+  .icon {
+    fill: #757575;
+  }
+
+  .person-info {
+    margin-left: 15px;
+    border-bottom: 1px solid #dcdcdc;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .name-and-email {
+      margin-right: auto;
+    }
+
+    .date,
+    small,
+    .last-login {
+      color: #c0c0c0;
+    }
+
+    .date,
+    .last-login {
+      margin-right: 10px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .mobile-only {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+}

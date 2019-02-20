@@ -2,4 +2,5 @@
 
 ## Notes
 
-- Prettier to keep code sanitized
+- I made filter algorithm by my assumption.
+- Prettier to keep code sanitized.
