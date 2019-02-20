@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuIcon from '../icons/MenuIcon';
-import ChromeReaderModeIcon from '../icons/ChromeReaderMode';
+import ChromeReaderModeIcon from '../icons/ChromeReaderModeIcon';
 import './Header.scss';
 
 const Header = () => (

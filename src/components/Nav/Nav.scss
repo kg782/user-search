@@ -1,10 +1,4 @@
 .nav-root {
-  flex-basis: 300px;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
-
   .header {
     font-size: 1.2rem;
     height: 60px;

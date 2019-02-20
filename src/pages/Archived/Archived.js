@@ -1,6 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import UserHeader from '../../components/UserHeader';
 
-const Archived = () => <div className="archived-root">Archived</div>;
+const title = 'Archived';
+
+const Archived = () => (
+  <div className="archived-root">
+    <UserHeader title={title} />
+  </div>
+);
 
 export default Archived;

@@ -9,19 +9,27 @@ import Archived from '../../pages/Archived';
 import Favorites from '../../pages/Favorites';
 import NonAdmins from '../../pages/NonAdmins';
 
+const routes = [
+  { path: '/administrators', component: Administrators },
+  { path: '/archived', component: Archived },
+  { path: '/favorites', component: Favorites },
+  { path: '/non-admins', component: NonAdmins },
+  { path: '/', component: AllUsers }
+].map(route => (
+  <Route key={route.path} path={route.path} component={route.component} />
+));
+
 const App = () => (
   <BrowserRouter>
     <div className="app-root">
       <Header />
       <div className="main">
-        <Nav />
-        <Switch>
-          <Route path="/aa" component={AllUsers} />
-          <Route path="/administrators" component={Administrators} />
-          <Route path="/archived" component={Archived} />
-          <Route path="/favorites" component={Favorites} />
-          <Route path="/non-admins" component={NonAdmins} />
-        </Switch>
+        <div className="nav-column">
+          <Nav />
+        </div>
+        <div className="content-column">
+          <Switch>{routes}</Switch>
+        </div>
       </div>
     </div>
   </BrowserRouter>

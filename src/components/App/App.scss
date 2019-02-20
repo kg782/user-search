@@ -2,4 +2,16 @@
   .main {
     display: flex;
   }
+
+  .nav-column {
+    flex-basis: 300px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .content-column {
+    flex-basis: 100%;
+  }
 }
