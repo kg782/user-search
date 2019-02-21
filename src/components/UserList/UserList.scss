@@ -1,7 +1,7 @@
 @import '../../configs/variables.scss';
 
 .user-list-root {
-  background: $white;
+  background-color: $white;
   margin: 20px;
 
   .avatar {
@@ -60,6 +60,10 @@
         display: block;
       }
     }
+  }
+
+  small {
+    font-size: $small-font-size;
   }
 
   .mobile-only {
