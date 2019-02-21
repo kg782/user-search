@@ -1,5 +1,7 @@
 # User search
 
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/kg782/user-search-example/master.svg?style=flat-square)](https://codecov.io/gh/kg782/user-search-example/)
+
 ## Notes
 
 - I made filter algorithm by my assumption. A user entry has attributes - `administrator`, `favorite` and `archived`. Side navigation is filtering by them. Then text search is searching within those filtered users.
