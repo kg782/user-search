@@ -1,0 +1,26 @@
+.search-root {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid #dcdcdc;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    flex-basis: 100%;
+    font-size: 18px;
+    padding-left: 5px;
+    height: 24px;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
