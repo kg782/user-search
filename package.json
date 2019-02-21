@@ -23,6 +23,16 @@
       "plugin:prettier/recommended"
     ]
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/*.config.js",
+      "!**/coverage/**",
+      "!**/serviceWorker.js",
+      "!**/index.js"
+    ]
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
