@@ -5,9 +5,6 @@ import { administratorSelector } from '../../selectors/userSelectors';
 
 const title = 'Administrators';
 
-export const filter = users =>
-  users && users.filter(user => !user.archived && user.administrator);
-
 const Administrators = ({ users }) => (
   <div className="administrators-root">
     <UserHeader title={title} />
