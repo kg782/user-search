@@ -6,7 +6,7 @@
 
 - I made filter algorithm by my assumption. A user entry has attributes - `administrator`, `favorite` and `archived`. Side navigation is filtering by them. Then text search is searching within those filtered users.
 - Business logics are decoupled and reusable as memoized selectors.
-- Used prettier/eslint to keep code sanitized as selectors.
+- Used prettier/eslint to keep code sanitized.
 - Mobile first styling.
 - I picked up icons from material design library.
 
