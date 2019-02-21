@@ -26,5 +26,5 @@ yarn start
 ## How to perform unit test
 
 ```sh
-yarn test
+yarn test --coverage
 ```

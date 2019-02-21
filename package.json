@@ -30,7 +30,8 @@
       "!**/*.config.js",
       "!**/coverage/**",
       "!**/serviceWorker.js",
-      "!**/index.js"
+      "!**/index.js",
+      "!**/build/**"
     ]
   },
   "browserslist": [
