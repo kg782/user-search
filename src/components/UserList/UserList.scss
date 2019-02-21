@@ -1,16 +1,18 @@
+@import '../../configs/variables.scss';
+
 .user-list-root {
-  background: #fff;
+  background: $white;
   margin: 20px;
 
   .avatar {
-    background-color: #f5f5f5;
+    background-color: $lighter-grey;
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    fill: #707070;
+    fill: $dark-grey;
   }
 
   .list {
@@ -26,18 +28,13 @@
     }
   }
 
-  .account {
-    border-radius: 50%;
-    background-color: #dcdcdc;
-  }
-
   .icon {
-    fill: #757575;
+    fill: $dark-grey;
   }
 
   .person-info {
     margin-left: 15px;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid $light-grey;
     height: 100%;
     width: 100%;
     display: flex;
@@ -51,22 +48,24 @@
     .date,
     small,
     .last-login {
-      color: #c0c0c0;
+      color: $grey;
     }
 
     .date,
     .last-login {
       margin-right: 10px;
-      @media (max-width: 768px) {
-        display: none;
+      display: none;
+
+      @media (min-width: $web-min-width) {
+        display: block;
       }
     }
   }
 
   .mobile-only {
-    display: none;
-    @media (max-width: 768px) {
-      display: block;
+    display: block;
+    @media (min-width: $web-min-width) {
+      display: none;
     }
   }
 }

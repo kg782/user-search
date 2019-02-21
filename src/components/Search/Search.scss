@@ -1,10 +1,12 @@
+@import '../../configs/variables.scss';
+
 .search-root {
   display: flex;
   align-items: center;
-  background: #fff;
+  background-color: $white;
   height: 50px;
   padding: 0 15px;
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid $light-grey;
 
   .icon {
     display: flex;

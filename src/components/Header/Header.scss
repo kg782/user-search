@@ -1,12 +1,14 @@
+@import '../../configs/variables.scss';
+
 .header-root {
   display: flex;
   padding: 0 15px;
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  background-color: #2271f7;
-  color: #fff;
-  fill: #fff;
+  background-color: $blue;
+  color: $white;
+  fill: $white;
 
   .menu {
     flex-basis: 24px;
